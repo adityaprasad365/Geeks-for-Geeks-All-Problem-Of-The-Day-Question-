@@ -1,0 +1,9 @@
+	def printString(self, s, ch, count):
+		# code here
+		count1=0
+		for i in range(len(s)):
+		    if s[i] == ch:
+		        count1+=1
+		    if count1==count:
+		        return s[i+1 :]
+	    return ""
